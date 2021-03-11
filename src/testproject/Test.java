@@ -16,7 +16,8 @@ public class Test {
 		}
 	}
 	
-	public void printArray(int r, String s) {
+	public void printArray(int r, String s, String t){
+		System.out.println(t);
 		for (int i = 0; i < MAX; i++) {
 			for (int j = 0; j < MAX; j++) {
 				for (int k = 0; k < MAX; k++) {
